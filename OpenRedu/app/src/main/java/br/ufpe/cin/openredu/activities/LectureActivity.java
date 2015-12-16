@@ -420,6 +420,7 @@ public class LectureActivity extends BaseActivity {
 				input.close();
 				return filling;
 			} catch (Exception e) {
+				e.printStackTrace();
 			}
 			return null;
 		}

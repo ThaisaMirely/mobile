@@ -191,6 +191,7 @@ public class ScribeHttpClient extends HttpClient {
 				if (ios != null)
 					ios.close();
 			} catch (IOException e) {
+				e.printStackTrace();
 			}
 		}
 

@@ -86,7 +86,7 @@
 			      		android:textSize="12sp"
 			      		android:clickable="true"
 			      		android:background="@null"
-			      		android:text="@string/forgot?"/>
+			      		android:text="@string/forgot"/>
 		    	</FrameLayout>
 			</LinearLayout>
 		</LinearLayout>

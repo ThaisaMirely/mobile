@@ -3,8 +3,6 @@ package br.com.developer.redu.api;
 import java.io.IOException;
 import java.util.List;
 
-import br.com.developer.redu.models.File;
-
 /**
  * @author thiagosoara
  * 

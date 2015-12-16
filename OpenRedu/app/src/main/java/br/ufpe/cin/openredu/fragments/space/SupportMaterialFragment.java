@@ -351,6 +351,7 @@ public class SupportMaterialFragment extends NoConnectNotifiableFragment {
 				input.close();
 				return filling;
 			} catch (Exception e) {
+				e.printStackTrace();
 			}
 			return null;
 		}

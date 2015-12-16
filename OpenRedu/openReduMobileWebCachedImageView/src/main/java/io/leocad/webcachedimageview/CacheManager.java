@@ -151,7 +151,9 @@ public class CacheManager {
 				while (mDiskCacheStarting) {
 					try {
 						mDiskCacheLock.wait();
-					} catch (InterruptedException e) {}
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
 				}
 
 				if (mDiskCache != null) {

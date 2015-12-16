@@ -8,8 +8,6 @@ import java.util.Map;
 
 import org.scribe.exceptions.OAuthConnectionException;
 
-import android.graphics.Paint.Join;
-import android.util.Log;
 import br.com.developer.redu.api.Redu;
 import br.com.developer.redu.http.ArgPair;
 import br.com.developer.redu.http.HttpClient;
@@ -17,7 +15,6 @@ import br.com.developer.redu.http.ScribeHttpClient;
 import br.com.developer.redu.models.CoursePayload;
 import br.com.developer.redu.models.EnrollmentPayload;
 import br.com.developer.redu.models.EnvironmentPayload;
-import br.com.developer.redu.models.File;
 import br.com.developer.redu.models.Folder;
 import br.com.developer.redu.models.FolderPayload;
 import br.com.developer.redu.models.Lecture;

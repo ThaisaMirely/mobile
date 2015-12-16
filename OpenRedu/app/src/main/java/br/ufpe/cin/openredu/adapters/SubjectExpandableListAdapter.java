@@ -3,7 +3,6 @@ package br.ufpe.cin.openredu.adapters;
 import java.util.List;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
 import android.content.Intent;

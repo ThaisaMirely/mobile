@@ -114,7 +114,7 @@ public class WebCachedImageView extends ImageView {
 		BitmapWorkerTask task = getBitmapWorkerTask();
 	    if (task != null) {
 	    	
-			if (url != task.url) {
+			if (url.equals(task.url)) {
 	            // Cancel previous task
 	            task.cancel(true);
 	        } else {
